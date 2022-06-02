@@ -1,0 +1,23 @@
+<html>
+    <head>
+        index
+    </head>
+    <body>
+        <h3>
+            hola usuario
+        </h3>
+        <h3> {{ nombre }}</h3>
+        <p>{{age}}</p>
+
+        {% if age> 18 %}
+        <p>es mayor de edad</p>
+        {% endif %}
+
+        <p>esto no esta en la condicional</p>
+
+        {% for item in list%}
+        <p>{{item}}</p>
+        {% endfor %}
+
+    </body>
+</html>
